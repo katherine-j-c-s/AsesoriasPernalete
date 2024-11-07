@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className="bg-orange-400 shadow-md fixed top-0 w-full z-10">
+    <nav className="bg-orange-400 bg-opacity-25 shadow-md fixed top-0 w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex relative z-20 items-center justify-between">
           <div className="flex-shrink-0">
