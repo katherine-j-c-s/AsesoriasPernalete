@@ -15,46 +15,60 @@ const Navbar = () => {
             </a>
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-center  space-x-4 ">
               <Link
                 to="inicio"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-gray-500 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-black hover:text-gray-800 px-3 py-2 rounded-md text-sm font-base cursor-pointer"
               >
-                Inicio
+                INICIO
               </Link>
+              <p>|</p>
               <Link
                 to="about"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-gray-500 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-black hover:text-gray-800 px-3 py-2 rounded-md text-sm font-base cursor-pointer"
               >
-                Sobre Nosotros
+                SOBRE NOSOTROS
               </Link>
+              <p>|</p>
               <Link
                 to="courses"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="text-gray-500 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                className="text-black hover:text-gray-800 px-3 py-2 rounded-md text-sm font-base cursor-pointer"
               >
-                Clases Virtuales
+                CLASES VIRTUALES
               </Link>
+              <p>|</p>
+              <div className="social-icons flex max-w-2xl justify-around">
+                <a href="https://facebook.com" className="social-icon bg-black text-white rounded-full p-2 m-2 facebook">
+                  <FaFacebookF />
+                </a>
+                <a href="https://instagram.com" className="social-icon bg-black text-white rounded-full p-2 m-2  instagram">
+                  <FaInstagram />
+                </a>
+                <a href="https://twitter.com" className="social-icon bg-black text-white rounded-full p-2 m-2  twitter">
+                  <FaTwitter />
+                </a>
+              </div>
               <Link
                 to="contact"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md cursor-pointer"
+                className="bg-black hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md cursor-pointer"
               >
-                Contacto
+                CONTACTO
               </Link>
             </div>
           </div>
